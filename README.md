@@ -6,14 +6,14 @@ it uses ai to have audio to text, dialect translation, speech recogntion, etc
 
 mandate of the org - HEI, lorma is one of the stake holders
 
-#Introduction to NLP (Natural Language Processing)
-###1. what is NLP?
+# Introduction to NLP (Natural Language Processing)
+### 1. what is NLP?
    - branch of AI that focuses on the interaction between computers and humans through natural language
    - it concerns with gathering, manipulating, storing, retrieving, classifying, and making sense, of written and spoken natural language information.
    - alternative names include:
      computational linguistics
      
-###3. NLP goals
+### 3. NLP goals
 - develop apps/computer systems that can understand human language and communicate with humans in a natural way
 **  the apps.computer systems should:**
 - recognize and extract meaning from the text and speech
@@ -25,7 +25,7 @@ mandate of the org - HEI, lorma is one of the stake holders
 - generate contents such as stories, joke, poems, computer program, articles
 
   
-###4. NLP applications
+### 4. NLP applications
    - question/ answerting chatbot systems
      Example: charlie the chatbot
    - sentiment analysis of product reviews
@@ -39,7 +39,7 @@ mandate of the org - HEI, lorma is one of the stake holders
    - virtual assistants
      example: siri, alexa, hey google
     
-###6. NLP tasks
+### 6. NLP tasks
    syntax
    - POS tagging is a process of assigning a pos or lexical class marker to each word in a sentence
    - parsing is analysing the grammatical structure of a swentence and identifying its constinuent parts
@@ -70,7 +70,7 @@ mandate of the org - HEI, lorma is one of the stake holders
      langauge generation
      text completion
    
-###8. Role of machine learning 
+### 8. Role of machine learning 
 machine learning plays an important role in NLP by providing algo and techniques that enables comp to learn from data and improve their performance on NLP tasks
 in recent years, deep learning algo have achieved state of the art performance on many NLP tasks that require analysis of sequences
 
@@ -94,7 +94,7 @@ Two types of machine learning:
               result visualization
 
 Machine learning in NLP is about teaching computers to understand human language by giving them examples, adjusting their learning settings, and then using their learning to make predictions on new data. 
-###9. challenges in NLP
+### 9. challenges in NLP
 data quality - domains with limited data
 ambiguity - sarcasm, irony, and figurative language can be difficult for machines to understand
 ethics and bias - NLP apps can perpetuate biases in data in training can them,leading to unfair and discriminatory outcomes
@@ -103,22 +103,60 @@ privacy - NLP relies on vast amounts of data which can be used to track peoples 
 
 
 
+#### Module 2
+**Overview of steps involved in NLP**
+data acquisition and preparation -> text preprocessing -> feature extraction and selection -> model building and training -> model development and performance evaluation.
+the DATA - it provides the foundation on which NLP models learn language patterns, semantics, and context. without sufficient and diverse data, NLP models would struggle to generalize and perform effectively on various language tasks
+Common data collection methods
+- web scraping(scweet, beautifulsoup)
+- surveys
+- APIs
+- Sensors and IoTs
 
+NLP libraries - NLTK, Gensim
 
+**Text Processing**
+1. cleaning
+   Regular expressions
+   - a formal language specifying text strings
+   - how can we search for this:
+      - woodchuck
+      - woodchucks
+      - Woodchuck
+      - Woodchucks
 
+2. Text Normalization
+   1. removal of duplicates, whitespaces, and punctuations
+   2. accent removal
+   3. capital letter removal
+   4. removal or substitution of special characters like emoji
+   5. substitution of contractions
+   6. transform word numerals into numbers
+   7. substitution of values for their type
+   8. acronyms normalization
+   9. normalize data formats, social security numbers or other data that have standard format
+   10. spell correction
+   11. removal of gender
+   12. substitution of rare words for more common synonyms
+   13. stop word removal
 
+3. Sentence Tokenization
+   also called sentence segmentation. it is the problem of dividing a string of written language into its component sentences.
 
+4. Stop words removal
+   stop words usually refers to the most common words in a language such as "and", "the" , "a".
 
+5. parts of speech tagging
+  - a sequence labeling task.
+  - the process of marking up a word in a text(corpus) as corresponding to a particular part of speech (syntactic tag), based on both its definition and its context.
 
+6. named entity recognition
 
+7. stemming is a process which a word is reduced to its stem/root form
+8. lemmatization is used to reduce words to normalized form.
 
-
-
-
-
-
-
-
+Text Pre-processing 
+is first step in NLP where we clean and transform raw text data to make it easier for computers to understand.
 
 
 
