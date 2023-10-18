@@ -155,8 +155,65 @@ NLP libraries - NLTK, Gensim
 7. stemming is a process which a word is reduced to its stem/root form
 8. lemmatization is used to reduce words to normalized form.
 
-Text Pre-processing 
+Text Preprocessing 
 is first step in NLP where we clean and transform raw text data to make it easier for computers to understand.
 
+-lowercasing
+-special character removal
 
+Text representation and Feature extraction
+text data is inherintly unstructured, making it diff to computers to directly process. text representations involves transforming text into numerical or unstructured formats that algorithms can comprehend.
 
+## Bag of words (BoW)
+- is a model simplifying representation used in natural language processing
+- it turns arbitrary text into fixed-lenght vectors by counting how many times each words appear
+- it disregards grammar and even word order because it only tells you what words occur in the document
+
+TF-IDF representation
+- stands for term frequency inverse document frequency
+- this technique quantifies the value of words in a set of documents by computing a score for each word to signify its importance in the document and corpus
+- this method is widely used technique in Information retrieval and text mining.
+- the computations here are more complex than the BoW model
+- Term frequency looks at the frequency
+
+## Model selection and training
+it is the process of choosing the best model for a given task and then training that model on a dataset of text
+
+model selection:
+- different ml or dl models can be employed
+- considerations:
+  task requirements
+  dataset size
+  model complexity
+  model interpretability
+  GPU and memory requirements
+
+training data - train test split
+- the model can be initially trained and fine-tuned on specific tasks or datasets using the training data. afterwards, the final model's performance is evaluated using test data, which it has ever seen before
+
+  traditional performance evaluation
+  - performance evaluation assesses how well an NLP model performs on a given task. proper evalueation is critical to ensure that the model meets the desired quality standards.
+ 
+  NLP specifc performance evaluation
+  - there are also metrics that can be considered NLP specific performance metrics because they are tailored to evaluate the performance of specific tasks within the field of NLP
+
+Deployment
+- process of taking a trained NLP model and making it available for use in real-world apps to process and analyze natural language data
+  steps:
+  1. choose deployment environment
+  2. model serialization
+  3. preprocessing and tokenization
+  4. model inference
+  5. API development
+  6. performance optimization
+  7. security and privacy
+  8. monitoring and logging
+  9. continuoues integrating
+  10. scaling
+  11. user interface
+
+  NLP modelling process:
+  data collection- gather a dataset of movie reviews  along with their corresponding sentiment labels
+  data preprocessing
+  feature extraction
+  model selection
