@@ -217,3 +217,26 @@ Deployment
   data preprocessing
   feature extraction
   model selection
+
+
+Day 2
+
+Topic modelling
+- a method for finding a gorup of words from a collection of documents that best represents the info in the collection
+- it extracts topics from text
+- a topic modelling tool takes a single text (corpus) and looks for patterns in the use
+
+  1. Application
+- topic modeling discovers a group of words from a collection of documents
+-  gains insights from responses
+- insights can be used as inputs for planning / policy formulation
+2. TM tools
+  - top modelling tool in JAVA
+  - jsLDA: in browser topic modelling
+  - BERT and BERTopic
+
+  Mallet(mahcine learning for language toolkit)
+  - a java based pacckage for statistical NLP, document classification, clustering, topic modelling.
+
+Latent Dirichlet Allocation (LDA)
+  
